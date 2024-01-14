@@ -18,8 +18,12 @@ h3 {
 	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 700
 }
+p.lead strong {
+	font-weight: 700;
+	/* font-style: italic; */
+}
 .intro-header {
-	padding-top: 50px;
+	padding-top: 100px;
 	padding-bottom: 50px;
 	text-align: center;
 	color: #f8f8f8;
@@ -30,8 +34,7 @@ h3 {
 }
 .intro-message {
 	position: relative;
-	padding-top: 20%;
-	padding-bottom: 20%
+	padding: 5% 0;
 }
 .intro-message>h1 {
 	margin: 0;
@@ -92,7 +95,7 @@ h3 {
 }
 img.logo { margin: 0 10px 0 0 }
 img.copy { padding-bottom: 2px }
-.banner {
+/* .banner {
 	padding: 100px 0;
 	color: #f8f8f8;
 	background-image: -webkit-radial-gradient(top, circle cover, #97d0e1, #173c4e 80%);
@@ -110,13 +113,13 @@ img.copy { padding-bottom: 2px }
 	float: right;
 	margin-top: 0
 }
-@media max-width:1199px) {
+@media (max-width:1199px) {
 	ul.banner-social-buttons {
 		float: left;
 		margin-top: 15px
 	}
 }
-@media max-width:767px) {
+@media (max-width:767px) {
 	.banner h2 {
 		margin: 0;
 		text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
@@ -128,8 +131,9 @@ img.copy { padding-bottom: 2px }
 		padding: 0
 	}
 	ul.banner-social-buttons>li:last-child { margin-bottom: 0 }
-}
+} */
 footer {
+	border-top: 1px solid #e7e7e7;
 	padding: 50px 0;
 	background-color: #f8f8f8
 }
